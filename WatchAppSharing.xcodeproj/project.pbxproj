@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1928223D1B3D64160046B9F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1928223C1B3D64160046B9F5 /* main.m */; };
+		192822401B3D64160046B9F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1928223F1B3D64160046B9F5 /* AppDelegate.m */; };
+		192822431B3D64160046B9F5 /* WatchAppSharing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 192822411B3D64160046B9F5 /* WatchAppSharing.xcdatamodeld */; };
+		192822461B3D64160046B9F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 192822451B3D64160046B9F5 /* ViewController.m */; };
+		192822491B3D64170046B9F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192822471B3D64170046B9F5 /* Main.storyboard */; };
+		1928224B1B3D64170046B9F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1928224A1B3D64170046B9F5 /* Images.xcassets */; };
+		1928224E1B3D64170046B9F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1928224C1B3D64170046B9F5 /* LaunchScreen.xib */; };
+		1928225A1B3D64170046B9F5 /* WatchAppSharingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 192822591B3D64170046B9F5 /* WatchAppSharingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		192822541B3D64170046B9F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1928222F1B3D64160046B9F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 192822361B3D64160046B9F5;
+			remoteInfo = WatchAppSharing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		192822371B3D64160046B9F5 /* WatchAppSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchAppSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1928223B1B3D64160046B9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1928223C1B3D64160046B9F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1928223E1B3D64160046B9F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1928223F1B3D64160046B9F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		192822421B3D64160046B9F5 /* WatchAppSharing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WatchAppSharing.xcdatamodel; sourceTree = "<group>"; };
+		192822441B3D64160046B9F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		192822451B3D64160046B9F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		192822481B3D64170046B9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1928224A1B3D64170046B9F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1928224D1B3D64170046B9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		192822531B3D64170046B9F5 /* WatchAppSharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchAppSharingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		192822581B3D64170046B9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192822591B3D64170046B9F5 /* WatchAppSharingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchAppSharingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		192822341B3D64160046B9F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		192822501B3D64170046B9F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1928222E1B3D64160046B9F5 = {
+			isa = PBXGroup;
+			children = (
+				192822391B3D64160046B9F5 /* WatchAppSharing */,
+				192822561B3D64170046B9F5 /* WatchAppSharingTests */,
+				192822381B3D64160046B9F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		192822381B3D64160046B9F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				192822371B3D64160046B9F5 /* WatchAppSharing.app */,
+				192822531B3D64170046B9F5 /* WatchAppSharingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		192822391B3D64160046B9F5 /* WatchAppSharing */ = {
+			isa = PBXGroup;
+			children = (
+				1928223E1B3D64160046B9F5 /* AppDelegate.h */,
+				1928223F1B3D64160046B9F5 /* AppDelegate.m */,
+				192822441B3D64160046B9F5 /* ViewController.h */,
+				192822451B3D64160046B9F5 /* ViewController.m */,
+				192822471B3D64170046B9F5 /* Main.storyboard */,
+				1928224A1B3D64170046B9F5 /* Images.xcassets */,
+				1928224C1B3D64170046B9F5 /* LaunchScreen.xib */,
+				192822411B3D64160046B9F5 /* WatchAppSharing.xcdatamodeld */,
+				1928223A1B3D64160046B9F5 /* Supporting Files */,
+			);
+			path = WatchAppSharing;
+			sourceTree = "<group>";
+		};
+		1928223A1B3D64160046B9F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1928223B1B3D64160046B9F5 /* Info.plist */,
+				1928223C1B3D64160046B9F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		192822561B3D64170046B9F5 /* WatchAppSharingTests */ = {
+			isa = PBXGroup;
+			children = (
+				192822591B3D64170046B9F5 /* WatchAppSharingTests.m */,
+				192822571B3D64170046B9F5 /* Supporting Files */,
+			);
+			path = WatchAppSharingTests;
+			sourceTree = "<group>";
+		};
+		192822571B3D64170046B9F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				192822581B3D64170046B9F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		192822361B3D64160046B9F5 /* WatchAppSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1928225D1B3D64170046B9F5 /* Build configuration list for PBXNativeTarget "WatchAppSharing" */;
+			buildPhases = (
+				192822331B3D64160046B9F5 /* Sources */,
+				192822341B3D64160046B9F5 /* Frameworks */,
+				192822351B3D64160046B9F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchAppSharing;
+			productName = WatchAppSharing;
+			productReference = 192822371B3D64160046B9F5 /* WatchAppSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		192822521B3D64170046B9F5 /* WatchAppSharingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 192822601B3D64170046B9F5 /* Build configuration list for PBXNativeTarget "WatchAppSharingTests" */;
+			buildPhases = (
+				1928224F1B3D64170046B9F5 /* Sources */,
+				192822501B3D64170046B9F5 /* Frameworks */,
+				192822511B3D64170046B9F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				192822551B3D64170046B9F5 /* PBXTargetDependency */,
+			);
+			name = WatchAppSharingTests;
+			productName = WatchAppSharingTests;
+			productReference = 192822531B3D64170046B9F5 /* WatchAppSharingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1928222F1B3D64160046B9F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = SpurTree;
+				TargetAttributes = {
+					192822361B3D64160046B9F5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					192822521B3D64170046B9F5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 192822361B3D64160046B9F5;
+					};
+				};
+			};
+			buildConfigurationList = 192822321B3D64160046B9F5 /* Build configuration list for PBXProject "WatchAppSharing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1928222E1B3D64160046B9F5;
+			productRefGroup = 192822381B3D64160046B9F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				192822361B3D64160046B9F5 /* WatchAppSharing */,
+				192822521B3D64170046B9F5 /* WatchAppSharingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		192822351B3D64160046B9F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192822491B3D64170046B9F5 /* Main.storyboard in Resources */,
+				1928224E1B3D64170046B9F5 /* LaunchScreen.xib in Resources */,
+				1928224B1B3D64170046B9F5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		192822511B3D64170046B9F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		192822331B3D64160046B9F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192822431B3D64160046B9F5 /* WatchAppSharing.xcdatamodeld in Sources */,
+				192822401B3D64160046B9F5 /* AppDelegate.m in Sources */,
+				192822461B3D64160046B9F5 /* ViewController.m in Sources */,
+				1928223D1B3D64160046B9F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1928224F1B3D64170046B9F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1928225A1B3D64170046B9F5 /* WatchAppSharingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		192822551B3D64170046B9F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 192822361B3D64160046B9F5 /* WatchAppSharing */;
+			targetProxy = 192822541B3D64170046B9F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		192822471B3D64170046B9F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				192822481B3D64170046B9F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1928224C1B3D64170046B9F5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1928224D1B3D64170046B9F5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1928225B1B3D64170046B9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1928225C1B3D64170046B9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1928225E1B3D64170046B9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchAppSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1928225F1B3D64170046B9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchAppSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		192822611B3D64170046B9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchAppSharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchAppSharing.app/WatchAppSharing";
+			};
+			name = Debug;
+		};
+		192822621B3D64170046B9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchAppSharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchAppSharing.app/WatchAppSharing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		192822321B3D64160046B9F5 /* Build configuration list for PBXProject "WatchAppSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1928225B1B3D64170046B9F5 /* Debug */,
+				1928225C1B3D64170046B9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1928225D1B3D64170046B9F5 /* Build configuration list for PBXNativeTarget "WatchAppSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1928225E1B3D64170046B9F5 /* Debug */,
+				1928225F1B3D64170046B9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		192822601B3D64170046B9F5 /* Build configuration list for PBXNativeTarget "WatchAppSharingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				192822611B3D64170046B9F5 /* Debug */,
+				192822621B3D64170046B9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		192822411B3D64160046B9F5 /* WatchAppSharing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				192822421B3D64160046B9F5 /* WatchAppSharing.xcdatamodel */,
+			);
+			currentVersion = 192822421B3D64160046B9F5 /* WatchAppSharing.xcdatamodel */;
+			path = WatchAppSharing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1928222F1B3D64160046B9F5 /* Project object */;
+}
